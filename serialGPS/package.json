@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "serialport": "^10.4.0",
+    "socket.io": "^4.5.2",
+    "swagger-ui-react": "^4.14.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js"
+  },
+  "name": "serialgps",
+  "version": "1.0.0",
+  "description": "Capture GPS input from USB device and display/manipulate/save",
+  "main": "server.js",
+  "author": "jps",
+  "license": "MIT"
+}
